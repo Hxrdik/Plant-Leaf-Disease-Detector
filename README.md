@@ -1,16 +1,14 @@
-🌿 Plant Leaf Disease Detection 🍃🍂
+**🌿 Plant Leaf Disease Detection 🍃🍂**
 
 Detect plant leaf diseases using deep learning and image classification — with a simple web interface for instant results.
 
 ⸻
 
-📝 Description
-
 Plant Leaf Disease Detection is a machine learning-based project that identifies diseases in plant leaves through image analysis. It uses a trained Convolutional Neural Network (CNN) model to classify leaf images into healthy or infected categories. The project supports remote usage via a web interface, making it suitable for farmers, researchers, and students in the agricultural sector.
 
 ⸻
 
-🧠 Model Details
+🧠 **Model Details**
 	•	Model Type: Convolutional Neural Network (CNN)
 	•	Dataset Used: Publicly available plant disease datasets (e.g., PlantVillage)
 	•	Classes: Healthy, Powdery Mildew, Leaf Spot, Rust, and more
@@ -19,7 +17,7 @@ Plant Leaf Disease Detection is a machine learning-based project that identifies
 
 ⸻
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 	•	Python
 	•	TensorFlow / Keras
 	•	Flask (for web deployment)
@@ -28,7 +26,7 @@ Plant Leaf Disease Detection is a machine learning-based project that identifies
 
 ⸻
 
-🚀 How to Run the Project
+**🚀 How to Run the Project**
 	1.	Run the main notebook:
 Open and run Plant_Leaf_Diseases_Detection.ipynb to load the model and necessary libraries.
 	2.	Upload Sample Images:
@@ -40,12 +38,12 @@ Once executed, a link will be generated. Click on it to open the webpage interfa
 
 ⸻
 
-📸 Sample Preview
+**📸 Sample Preview**
 <img width="1430" height="813" alt="image" src="https://github.com/user-attachments/assets/bb93b937-5765-465b-9794-54bc4bbf7406" />
 
 
 
-FOLDER STRUCTURE
+**FOLDER STRUCTURE**
 📁 Plant-Leaf-Disease-Detection
 ├── Plant_Leaf_Diseases_Detection.ipynb
 ├── Plant_Leaf_Disease_Detector_Output.ipynb
