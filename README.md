@@ -41,14 +41,6 @@ Once executed, a link will be generated. Click on it to open the webpage interfa
 **📸 Sample Preview**
 <img width="1430" height="813" alt="image" src="https://github.com/user-attachments/assets/bb93b937-5765-465b-9794-54bc4bbf7406" />
 
+ For Model: https://drive.google.com/file/d/1L5kWOpCVIkahnGDYKl0XylkNCn-OA01p/view?usp=drive_link
 
 
-**FOLDER STRUCTURE**
-📁 Plant-Leaf-Disease-Detection
-├── Plant_Leaf_Diseases_Detection.ipynb
-├── Plant_Leaf_Disease_Detector_Output.ipynb
-├── /images/
-│   └── sample_leaf.jpg
-├── /model/
-│   └── trained_model.h5
-└── README.md
