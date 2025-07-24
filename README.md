@@ -1,46 +1,77 @@
-**🌿 Plant Leaf Disease Detection 🍃🍂**
+Sure! Here’s your improved README with larger, prominent headings using Markdown’s heading levels (#, ##, ###) to improve structure and readability:
+
+⸻
+
+🌿 Plant Leaf Disease Detection 🍃🍂
 
 Detect plant leaf diseases using deep learning and image classification — with a simple web interface for instant results.
 
 ⸻
 
-Plant Leaf Disease Detection is a machine learning-based project that identifies diseases in plant leaves through image analysis. It uses a trained Convolutional Neural Network (CNN) model to classify leaf images into healthy or infected categories. The project supports remote usage via a web interface, making it suitable for farmers, researchers, and students in the agricultural sector.
+📝 PROJECT OVERVIEW
+
+Plant Leaf Disease Detection is a machine learning-based project that classifies plant leaf images as healthy or diseased using a trained Convolutional Neural Network (CNN). The system offers a lightweight web interface for seamless interaction, making it ideal for farmers, researchers, and students to facilitate early disease detection and crop protection.
 
 ⸻
 
-🧠 **Model Details**
+🧠 MODEL DETAILS
 	•	Model Type: Convolutional Neural Network (CNN)
-	•	Dataset Used: Publicly available plant disease datasets (e.g., PlantVillage)
-	•	Classes: Healthy, Powdery Mildew, Leaf Spot, Rust, and more
-	•	Frameworks: TensorFlow / Keras
-	•	Training Accuracy: ~95% (varies with dataset)
+	•	Dataset: Public plant disease datasets (e.g., PlantVillage)
+	•	Classes: Healthy, Powdery Mildew, Leaf Spot, Rust, etc.
+	•	Frameworks: TensorFlow, Keras
+	•	Training Accuracy: ~95% (may vary by dataset)
 
 ⸻
 
-**🛠️ Tech Stack**
-	•	Python
-	•	TensorFlow / Keras
-	•	Flask (for web deployment)
-	•	Google Colab / Jupyter Notebook
-	•	HTML/CSS (Web UI)
+🛠️ TECH STACK
+	•	🐍 Python
+	•	🔶 TensorFlow / Keras
+	•	⚙️ Flask (for web deployment)
+	•	💻 Google Colab / Jupyter Notebook
+	•	🌐 HTML / CSS (for frontend)
 
 ⸻
 
-**🚀 How to Run the Project**
-	1.	Run the main notebook:
-Open and run Plant_Leaf_Diseases_Detection.ipynb to load the model and necessary libraries.
-	2.	Upload Sample Images:
-Provide the path to sample leaf images in the code (or upload to Colab if running there).
-	3.	Run the Output Notebook:
-Execute Plant_Leaf_Disease_Detector_Output.ipynb to generate predictions and deploy the web app.
-	4.	Access Web Interface:
-Once executed, a link will be generated. Click on it to open the webpage interface and view predictions for your uploaded images.
+🚀 HOW TO RUN THE PROJECT
+	1.	Run the Main Notebook
+Open and run Plant_Leaf_Diseases_Detection.ipynb to load libraries and the trained model.
+	2.	Upload Sample Images
+Provide the path to your test leaf images or upload them (if using Colab).
+	3.	Run Output Notebook
+Execute Plant_Leaf_Disease_Detector_Output.ipynb to get predictions and generate a web interface.
+	4.	Access Web Page
+Click the generated link to view results in a clean, web-based format.
 
 ⸻
 
-**📸 Sample Preview**
-<img width="1430" height="813" alt="image" src="https://github.com/user-attachments/assets/bb93b937-5765-465b-9794-54bc4bbf7406" />
+📁 FOLDER STRUCTURE
+Plant-Leaf-Disease-Detection/
 
- For Model: https://drive.google.com/file/d/1L5kWOpCVIkahnGDYKl0XylkNCn-OA01p/view?usp=drive_link
+sample_images/                      
+    leaf1.jpg                        # Contains test leaf images
+
+model/                              
+    model.h5                         # Saved CNN model
+    label_map.json                   # (Optional) Class label mappings
+
+Plant_Leaf_Diseases_Detection.ipynb  # Main model training/loading notebook
+
+Plant_Leaf_Disease_Detector_Output.ipynb  # Output + Web Interface notebook
+
+README.md                            # Project overview and instructions
+
+requirements.txt                     # Python dependencies
+
+⸻
+
+📸 SAMPLE PREVIEW
+
+<img width="100%" alt="Plant Leaf Disease Detection Output" src="https://github.com/user-attachments/assets/bb93b937-5765-465b-9794-54bc4bbf7406" />
 
 
+
+⸻
+
+📥 DOWNLOAD TRAINED MODEL
+
+👉 Click here to download the trained model (https://drive.google.com/file/d/1L5kWOpCVIkahnGDYKl0XylkNCn-OA01p/view)
